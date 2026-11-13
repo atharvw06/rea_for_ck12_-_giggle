@@ -5,6 +5,14 @@
 
 ---
 
+## Detailed Architectural & Knowledge Graph Documentation
+For deep-dive technical specifications and blueprints designed for **Piko**, consult:
+1. [Giggle Academy Overall System Architecture](../../docs/architecture/giggle-overall-architecture.md): Full deconstruction of the dual-client system (Nuxt 3 web vs. 516 MB native APK), creator microservices, multi-region China failover networks, and Sensors/Adjust telemetry.
+2. [Giggle Academy Knowledge Graph System & Isolation Architecture](../../docs/knowledge-graph/giggle-knowledge-graph-system.md): In-depth breakdown of the Adventure Map DAG, Early Phonics & Numeracy ontologies, and isolation dimensions (Linguistic graph isolation, Age-cohort isolation, Offline edge sub-graph slices, and Diagnostic onboarding custom paths).
+3. [Architectural Blueprint for Piko: Key Takeaways from Giggle Academy](../../docs/piko-blueprint/piko-takeaways-from-giggle.md): Concrete database schemas, offline-first SQLite sync engines, and game-based learning patterns tailored for Piko.
+
+---
+
 ## 1. Observations (Empirical Evidence)
 
 ### 1.1 Architecture & Runtime
