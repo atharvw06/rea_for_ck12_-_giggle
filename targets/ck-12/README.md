@@ -5,6 +5,14 @@
 
 ---
 
+## Detailed Architectural & Knowledge Graph Documentation
+For deep-dive technical specifications and blueprints designed for **Piko**, consult:
+1. [CK-12 Overall System Architecture](../../docs/architecture/ck12-overall-architecture.md): Full deconstruction of client SPA, API gateway, `flxcore` backend, adaptive assessment loops, caching, and telemetry.
+2. [CK-12 Knowledge Graph System & Isolation Architecture](../../docs/knowledge-graph/ck12-knowledge-graph-system.md): In-depth breakdown of the 6-tier ontology (Domain -> Branch -> Topic -> Concept -> Modality -> Item Bank) and the 5 isolation dimensions (Standards Projections, Community vs Core, Subject Partitioning, Localization Overlays, and Stateless Graph vs State Ledger).
+3. [Architectural Blueprint for Piko: Key Takeaways from CK-12](../../docs/piko-blueprint/piko-takeaways-from-ck12.md): Concrete database schemas, BKT adaptive practice algorithms, and engineering patterns tailored for Piko.
+
+---
+
 ## 1. Observations (Empirical Evidence)
 
 ### 1.1 Architecture & Runtime
